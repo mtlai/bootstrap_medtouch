@@ -14,10 +14,22 @@ ul {
     margin: 0px;
 }
 
-a:hover {
-	text-decoration: none;
+
+a, a:hover, a:focus, a:active, a.active {
+    color: #97b3d1;
+    outline: medium none;
+    text-decoration: none;
 }
 
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #97b3d1;  
+    font-size: 20px;  
+}
 
 .navbar-inverse {
     background-color: #5a5b55;
