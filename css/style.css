@@ -1,11 +1,7 @@
-/*!
- * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+/* MedTouch Bootstrap Style */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 70px; 
 }
 
 ul {
@@ -17,18 +13,21 @@ ul {
 
 a, a:hover, a:focus, a:active, a.active {
     color: #97b3d1;
-    outline: medium none;
-    text-decoration: none;
+      text-decoration: none;
 }
-
-
-
 
 .navbar-inverse .navbar-nav > li > a {
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Ubuntu",Helvetica,Arial,sans-serif;
     color: #97b3d1;  
-    font-size: 20px;  
+    font-size: 18px; 
+    font-weight: 300; 
+}
+
+@media (min-width: 768px) {
+    .navbar-inverse .navbar-nav > li > a {
+        padding: 25px 35px 0 0;
+    }
 }
 
 .navbar-inverse {
@@ -37,15 +36,20 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 .navbar-brand {
-    font-size: 18px;
-    position: absolute;
     width: 100%;
+    position: relative;
+    top: 34px;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+}/*
+.navbar-brand img {
+    position: absolute;
     left: 0;
     top: 45px;
     text-align: center;
     margin: auto;
-    background-color: #5a5b55;
-}
+}*/
 
 /*Learn More Button*/
 
@@ -74,6 +78,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 /*Tablet and Above*/
+
 @media (min-width: 768px) {
     .event-date {
         float:left;
@@ -161,7 +166,6 @@ footer h3 {
 	color: #ffffff;	
 	font-size: 1.125em;
 }
-
 
 footer a {
 	color: #ffffff;
